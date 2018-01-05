@@ -1,0 +1,20 @@
+// @import "core/funciones";
+@import "core/variables";
+@import "core/mixins";
+@import "core/settings";
+
+@import "layout/header";
+@import "layout/footer";
+@import "layout/grid";
+
+@import "components/buttons";
+@import "components/hero";
+@import "components/typography";
+@import "components/forms";
+
+@import "pages/home";
+
+
+body {
+background-color: $color-midTone-light;
+}
