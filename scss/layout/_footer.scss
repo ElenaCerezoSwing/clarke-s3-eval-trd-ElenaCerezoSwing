@@ -1,0 +1,12 @@
+footer {
+background-color: $color-tertiary-dark;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+padding-bottom: 30px;
+}
+
+span {
+color:$color-primary;
+}
