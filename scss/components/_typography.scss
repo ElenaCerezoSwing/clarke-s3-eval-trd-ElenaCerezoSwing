@@ -6,8 +6,9 @@
     line-height: $line-height-hero-small;
     text-align: center;
     color: $color-midTone-light;
-    text-shadow: ;
-}
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+
 @media all and (min-width: 768px){
   font-size: $font-size-hero-m;
   line-height: $line-height-hero-medium;
@@ -15,7 +16,8 @@
 @media all and (min-width: 1024px){
   font-size: $font-size-hero-s;
   line-height: $line-height-hero-large;
-  text-shadow: ;
+  text-shadow:0 2px 5px rgba(0, 0, 0, 0.5) ;
+}
 }
 .font-hero-sumary{
     font-family:$font-family-description ;
@@ -23,10 +25,10 @@
     font-size: $font-size-xs;
     text-align: center;
     color: $color-midTone-light;
-}
+
 @media all and (min-width: 768px){
   font-size: $font-size-l;
-
+ }
 }
 
 
@@ -38,10 +40,12 @@
     line-height: $line-height-medium;
     text-align: center;
     color: $color-secondary-light;
-}
+    text-transform: capitalize;
+
 
 @media all and (min-width: 1024px){
   font-size: $font-size-xs;
+}
 }
 
 .font-section-title{
@@ -51,13 +55,15 @@
     line-height: $line-height-medium;
     text-align: center;
     color: $color-dark;
-}
+    text-transform: capitalize;
+
 @media all and (min-width: 768px){
   font-size: $font-size-xl;
   line-height: $line-height-large;
 }
 @media all and (min-width: 1024px){
   font-size: $font-size-xxl;
+}
 }
 
 .font-section-description{
@@ -67,10 +73,11 @@
     line-height: $line-height-medium;
     text-align: center;
     color: $color-midTone-dark;
-}
 @media all and (min-width: 768px){
   font-size: $font-size-m;
 }
+}
+
 
 
 // SECTION REASONS
@@ -81,13 +88,15 @@
     line-height: $line-height-medium;
     text-align: center;
     color: $color-dark;
-}
+    text-transform: capitalize;
+
 @media all and (min-width: 768px){
   font-size: $font-size-xl;
   line-height: $line-height-large;
 }
 @media all and (min-width: 1024px){
   font-size: $font-size-xxl;
+}
 }
 
 .font-section-reasons-subtitle{
@@ -97,10 +106,11 @@
     line-height: $line-height-medium;
     text-align: center;
     color: $color-dark;
-}
+
 @media all and (min-width: 768px){
   font-size: $font-size-l;
   }
+}
 
 
 .font-section-reasons-description{
@@ -110,10 +120,11 @@
     line-height: $line-height-medium;
     text-align: center;
     color: $color-dark;
-}
+
 @media all and (min-width: 768px){
   font-size: $font-size-m;
   }
+}
 
 
 // BOTÓN
