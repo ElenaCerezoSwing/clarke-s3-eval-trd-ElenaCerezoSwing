@@ -1,16 +1,14 @@
+.reasons {
+  list-style: none;
+}
+
 footer {
   background-color: #304268;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
+  height: 128px;
   padding-bottom: 30px;
 }
 
@@ -36,11 +34,17 @@ span {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin: auto;
 }
 
 .button-shadow {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.footer-button {
+  position: relative;
+  bottom: 20px;
 }
 
 .button-consistent {
@@ -110,6 +114,7 @@ a {
   color: #ffffff;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
+  margin-top: 284px;
 }
 
 .font-hero-sumary {
@@ -125,7 +130,6 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 30px;
-  text-align: center;
   color: #8ccbea;
   text-transform: capitalize;
 }
@@ -135,7 +139,6 @@ a {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  text-align: center;
   color: #000000;
   text-transform: capitalize;
 }
@@ -145,7 +148,6 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  text-align: center;
   color: #4a4a4a;
 }
 
@@ -202,6 +204,14 @@ a {
   line-height: 30px;
   text-align: center;
   color: #ffffff;
+  margin: 0;
+}
+
+.description-section {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 45px;
 }
 
 body {
@@ -213,8 +223,9 @@ body,html {
   margin: 0;
 }
 
-.reasons {
-  list-style: none;
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media all and (min-width: 768px) {
@@ -229,6 +240,7 @@ body,html {
   .font-hero-title {
     font-size: 80px;
     line-height: 106px;
+    margin-top: 384px;
   }
 
   .font-hero-sumary {
@@ -255,6 +267,12 @@ body,html {
 
   .font-section-reasons-description {
     font-size: 20px;
+  }
+
+  .description-section {
+    margin-left: 39px;
+    margin-right: 39px;
+    margin-bottom: 60px;
   }
 }
 
@@ -283,6 +301,12 @@ body,html {
 
   .font-section-reasons-title {
     font-size: 32px;
+  }
+
+  .description-section {
+    margin-left: 275px;
+    margin-right: 275px;
+    margin-top: 60px;
   }
 }
 

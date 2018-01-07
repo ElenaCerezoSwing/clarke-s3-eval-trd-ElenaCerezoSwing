@@ -1,11 +1,19 @@
 footer {
 background-color: $color-tertiary-dark;
-display: flex;
-flex-direction: column;
+// display: flex;
+// flex-direction: column;
 align-items: center;
 width: 100%;
-padding-bottom: 30px;
+height:128px;
+padding-bottom: $margin-s;
+// margin: auto;
 }
+// #end{
+// position: relative;
+// }
+
+
+
 
 span {
 color:$color-primary;

@@ -2,6 +2,7 @@
 @import "core/variables";
 @import "core/mixins";
 @import "core/settings";
+@import "core/helpers";
 
 @import "layout/header";
 @import "layout/footer";
@@ -24,6 +25,7 @@ height: 100%;
 margin: 0;
 }
 
-.reasons{
-list-style: none;
+
+*{
+box-sizing: border-box;
 }

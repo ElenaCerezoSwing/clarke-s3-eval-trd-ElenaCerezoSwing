@@ -8,10 +8,12 @@
     color: $color-midTone-light;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
+    margin-top: $margin-top-hero;
 
 @media all and (min-width: 768px){
   font-size: $font-size-hero-m;
   line-height: $line-height-hero-medium;
+  margin-top: $margin-top-hero-l;
 }
 @media all and (min-width: 1024px){
   font-size: $font-size-hero-s;
@@ -38,7 +40,6 @@
     font-weight: $font-weight-regular;
     font-size: $font-size-xxs;
     line-height: $line-height-medium;
-    text-align: center;
     color: $color-secondary-light;
     text-transform: capitalize;
 
@@ -53,7 +54,6 @@
     font-weight: $font-weight-bold;
     font-size: $font-size-l;
     line-height: $line-height-medium;
-    text-align: center;
     color: $color-dark;
     text-transform: capitalize;
 
@@ -71,7 +71,6 @@
     font-weight: $font-weight-regular;
     font-size: $font-size-s;
     line-height: $line-height-medium;
-    text-align: center;
     color: $color-midTone-dark;
 @media all and (min-width: 768px){
   font-size: $font-size-m;
@@ -153,4 +152,5 @@
       line-height: $line-height-medium;
       text-align: center;
       color: $color-midTone-light;
+margin: 0;
   }

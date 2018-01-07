@@ -6,11 +6,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 .button-shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
-
+.footer-button {
+position: relative;
+bottom: 20px;
+// margin-top: 38px;
+}
 .button-consistent {
   background-color: $color-midTone-light;
   width:76px;

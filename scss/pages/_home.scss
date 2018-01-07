@@ -1,0 +1,16 @@
+.description-section{
+margin-left: $margin-xs;
+margin-right: $margin-xs;
+margin-top: $margin-s;
+margin-bottom: $margin-l;
+@media all and (min-width: 768px){
+  margin-left: $margin-m;
+  margin-right: $margin-m;
+  margin-bottom: $margin-xl;
+}
+@media all and (min-width: 1024px){
+  margin-left: $margin-xxl;
+  margin-right: $margin-xxl;
+  margin-top: $margin-xl;
+}
+}
