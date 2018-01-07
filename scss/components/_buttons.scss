@@ -1,12 +1,50 @@
 .scroll-button{
-background-color: $color-midTone-light;
-width:45px;
-height:45px;
-border-radius: 50%;
-display: flex;
-justify-content: center;
- align-items: center;
+  background-color: $color-midTone-light;
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button-shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.button-consistent {
+  background-color: $color-midTone-light;
+  width:76px;
+  height:45px;
+  border-radius: 22.5px;
+  border: 2px solid $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media all and (min-width: 768px){
+    width:  91px;
+  }
+  @media all and (min-width: 1024px){
+    width:  160px;
+  }
+}
+
+.button-opposite {
+  background-color: $color-primary;
+  width:184px;
+  height:45px;
+  border-radius: 22.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media all and (min-width: 768px){
+    width: 210px;
+  }
+  @media all and (min-width: 1024px){
+    width: 255px;
+  }
+}
+a{
+text-decoration: none;
 }
