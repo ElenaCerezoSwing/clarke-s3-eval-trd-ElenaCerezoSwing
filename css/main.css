@@ -132,9 +132,9 @@ a {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -165,6 +165,7 @@ a {
   color: #ffffff;
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
+  margin: 0;
 }
 
 .font-hero-sumary {
@@ -314,23 +315,6 @@ body,html {
   box-sizing: border-box;
 }
 
-@media all and (min: 768px) {
-  .hero {
-    padding-top: 384px;
-    padding-bottom: 45px;
-    padding-left: 39px;
-    padding-right: 39px;
-  }
-}
-
-@media all and (min: 1024px) {
-  .hero {
-    padding-bottom: 13px;
-    padding-left: 275px;
-    padding-right: 275px;
-  }
-}
-
 @media all and (min-width: 768px) {
   .reasons-to-purchase {
     padding-top: 60px;
@@ -344,6 +328,13 @@ body,html {
 
   .button-opposite {
     width: 210px;
+  }
+
+  .hero {
+    padding-top: 384px;
+    padding-bottom: 45px;
+    padding-left: 39px;
+    padding-right: 39px;
   }
 
   .font-hero-title {
@@ -396,6 +387,12 @@ body,html {
 
   .button-opposite {
     width: 255px;
+  }
+
+  .hero {
+    padding-bottom: 13px;
+    padding-left: 275px;
+    padding-right: 275px;
   }
 
   .font-hero-title {
