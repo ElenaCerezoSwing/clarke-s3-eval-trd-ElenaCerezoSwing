@@ -3,9 +3,21 @@ background-color: $color-light;
 z-index: 1;
 }
 
-.menu{
+.menu-trigger{
 display:inline-flex;
+	position: absolute;
+	height: 100%;
+	width: 310px;
+	background-color: $color-light;
+	left: -400px;
+	top: 0;
+	transition: left ease 0.8s;
+	.page--menu-visible & {
+		left: 0;
+		z-index: 2;
+	}
 }
+
 
 .burguer{
 width:276px;
@@ -27,5 +39,15 @@ width:276px;
 border-bottom: 1px solid $color-secondary-light;
 height:44px;
 width:276px;
-
+}
+.page--menu-visible {
+	&::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		z-index: 1;
+	}
 }
