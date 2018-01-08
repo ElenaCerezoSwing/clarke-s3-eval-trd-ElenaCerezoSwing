@@ -1,0 +1,20 @@
+.burguer{
+width:276px;
+height:667px;
+background-color: $color-midTone-light;
+opacity: 0.96;
+list-style: none;
+margin: $margin-none;
+}
+
+.burguer-option {
+border-bottom: 1px solid $color-secondary-light;
+height:45px;
+width:276px;
+}
+.burguer-option-0{
+border-bottom: 1px solid $color-secondary-light;
+height:44px;
+width:276px;
+
+}

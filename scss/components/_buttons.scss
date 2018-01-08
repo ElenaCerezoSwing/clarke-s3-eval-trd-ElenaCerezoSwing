@@ -1,4 +1,21 @@
-.scroll-button{
+.burguer-opener{
+  color: $color-midTone-light;
+  background-color: $color-secondary-dark;
+  width: 44px;
+  height:44px;
+  padding: 15px;
+  border: none;
+}
+.burguer-close{
+  color: $color-midTone-light;
+  background-color: $color-primary;
+  width: 44px;
+  height:44px;
+  padding: 15px;
+  border: none;
+}
+
+.scroll-button-up{
   background-color: $color-midTone-light;
   width:45px;
   height:45px;
@@ -7,15 +24,26 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-}
-.button-shadow {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+  bottom: 20px;
 }
-.footer-button {
-position: relative;
-bottom: 20px;
-// margin-top: 38px;
+.scroll-button-down{
+  background-color: $color-midTone-light;
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+// .button-shadow {
+//
+// }
+// .footer-button {
+//
+// // margin-top: 38px;
+// }
 .button-consistent {
   background-color: $color-midTone-light;
   width:76px;
@@ -51,5 +79,5 @@ bottom: 20px;
   }
 }
 a{
-text-decoration: none;
+  text-decoration: none;
 }

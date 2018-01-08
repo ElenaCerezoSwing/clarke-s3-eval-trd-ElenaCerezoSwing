@@ -8,4 +8,23 @@
   justify-content: flex-end;
   align-items:  center;
   height:100%;
+  padding-top: $margin-top-hero;
+  padding-bottom: $margin-bottom-hero-mobile;
+  padding-left: $margin-xs;
+  padding-right: $margin-xs;
+margin:0;
+
+@media all and (min:768px){
+  padding-top: $margin-top-hero-l;
+  padding-bottom: $margin-l;
+  padding-left: $margin-m;
+  padding-right: $margin-m;
+}
+@media all and (min:1024px){
+
+  padding-bottom: $margin-bottom-hero-desktop;
+  padding-left: $margin-xxl;
+  padding-right: $margin-xxl;
+}
+
 }

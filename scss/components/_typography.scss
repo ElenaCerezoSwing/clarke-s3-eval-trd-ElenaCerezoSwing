@@ -1,156 +1,166 @@
+// BURGUER
+.font-burguer{
+  font-family:$font-family-title;
+  font-weight: $font-weight-light;
+  font-size: $font-size-xs;
+  line-height: $line-height-large;
+  text-align: left;
+  color: $color-tertiary-dark;
+  margin: 0;
+}
 // HERO
 .font-hero-title{
-    font-family:$font-family-title;
-    font-weight: $font-weight-bold;
-    font-size: $font-size-hero-s;
-    line-height: $line-height-hero-small;
-    text-align: center;
-    color: $color-midTone-light;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
-    text-transform: uppercase;
-    margin-top: $margin-top-hero;
-
-@media all and (min-width: 768px){
-  font-size: $font-size-hero-m;
-  line-height: $line-height-hero-medium;
-  margin-top: $margin-top-hero-l;
-}
-@media all and (min-width: 1024px){
+  font-family:$font-family-title;
+  font-weight: $font-weight-bold;
   font-size: $font-size-hero-s;
-  line-height: $line-height-hero-large;
-  text-shadow:0 2px 5px rgba(0, 0, 0, 0.5) ;
-}
+  line-height: $line-height-hero-small;
+  text-align: center;
+  color: $color-midTone-light;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  // margin-top: $margin-top-hero;
+
+  @media all and (min-width: 768px){
+    font-size: $font-size-hero-m;
+    line-height: $line-height-hero-medium;
+    // margin-top: $margin-top-hero-l;
+  }
+  @media all and (min-width: 1024px){
+    font-size: $font-size-hero-l;
+    line-height: $line-height-hero-large;
+    text-shadow:0 2px 5px rgba(0, 0, 0, 0.5) ;
+  }
 }
 .font-hero-sumary{
-    font-family:$font-family-description ;
-    font-weight: $font-weight-regular;
-    font-size: $font-size-xs;
-    text-align: center;
-    color: $color-midTone-light;
+  font-family:$font-family-description ;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-xs;
+  text-align: center;
+  color: $color-midTone-light;
 
-@media all and (min-width: 768px){
-  font-size: $font-size-l;
- }
+  @media all and (min-width: 768px){
+    font-size: $font-size-l;
+  }
 }
 
 
 // SECTION
 .font-section-category{
-    font-family: $font-family-description;
-    font-weight: $font-weight-regular;
-    font-size: $font-size-xxs;
-    line-height: $line-height-medium;
-    color: $color-secondary-light;
-    text-transform: capitalize;
+  font-family: $font-family-description;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-xxs;
+  line-height: $line-height-medium;
+  color: $color-secondary-light;
+  text-transform: capitalize;
 
 
-@media all and (min-width: 1024px){
-  font-size: $font-size-xs;
-}
+  @media all and (min-width: 1024px){
+    font-size: $font-size-xs;
+  }
 }
 
 .font-section-title{
-    font-family:$font-family-title ;
-    font-weight: $font-weight-bold;
-    font-size: $font-size-l;
-    line-height: $line-height-medium;
-    color: $color-dark;
-    text-transform: capitalize;
+  font-family:$font-family-title ;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-l;
+  line-height: $line-height-medium;
+  color: $color-dark;
+  text-transform: capitalize;
 
-@media all and (min-width: 768px){
-  font-size: $font-size-xl;
-  line-height: $line-height-large;
-}
-@media all and (min-width: 1024px){
-  font-size: $font-size-xxl;
-}
+  @media all and (min-width: 768px){
+    font-size: $font-size-xl;
+    line-height: $line-height-large;
+  }
+  @media all and (min-width: 1024px){
+    font-size: $font-size-xxl;
+  }
 }
 
 .font-section-description{
-    font-family: $font-family-description ;
-    font-weight: $font-weight-regular;
-    font-size: $font-size-s;
-    line-height: $line-height-medium;
-    color: $color-midTone-dark;
-@media all and (min-width: 768px){
-  font-size: $font-size-m;
-}
+  font-family: $font-family-description ;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-s;
+  line-height: $line-height-medium;
+  color: $color-midTone-dark;
+  @media all and (min-width: 768px){
+    font-size: $font-size-m;
+  }
 }
 
 
 
 // SECTION REASONS
 .font-section-reasons-title{
-    font-family:$font-family-title ;
-    font-weight: $font-weight-bold;
-    font-size: $font-size-l;
-    line-height: $line-height-medium;
-    text-align: center;
-    color: $color-dark;
-    text-transform: capitalize;
+  font-family:$font-family-title ;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-l;
+  line-height: $line-height-medium;
+  text-align: center;
+  color: $color-dark;
+  text-transform: capitalize;
 
-@media all and (min-width: 768px){
-  font-size: $font-size-xl;
-  line-height: $line-height-large;
-}
-@media all and (min-width: 1024px){
-  font-size: $font-size-xxl;
-}
+  @media all and (min-width: 768px){
+    font-size: $font-size-xl;
+    line-height: $line-height-large;
+  }
+  @media all and (min-width: 1024px){
+    font-size: $font-size-xxl;
+  }
 }
 
 .font-section-reasons-subtitle{
-    font-family: $font-family-title;
-    font-weight: $font-weight-bold;
-    font-size: $font-size-s;
-    line-height: $line-height-medium;
-    text-align: center;
-    color: $color-dark;
+  font-family: $font-family-title;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-s;
+  line-height: $line-height-medium;
+  text-align: center;
+  color: $color-dark;
 
-@media all and (min-width: 768px){
-  font-size: $font-size-l;
+  @media all and (min-width: 768px){
+    font-size: $font-size-l;
   }
 }
 
 
 .font-section-reasons-description{
-    font-family: $font-family-description ;
-    font-weight: $font-weight-regular;
-    font-size: $font-size-s;
-    line-height: $line-height-medium;
-    text-align: center;
-    color: $color-dark;
+  font-family: $font-family-description ;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-s;
+  line-height: $line-height-medium;
+  text-align: center;
+  color: $color-dark;
 
-@media all and (min-width: 768px){
-  font-size: $font-size-m;
+  @media all and (min-width: 768px){
+    font-size: $font-size-m;
   }
 }
 
 
 // BOTÓN
 .font-button {
-      font-family:$font-family-description ;
-      font-weight: $font-weight-medium ;
-      font-size: $font-size-m;
-      line-height: $line-height-large;
-      text-align: center;
-      color: $color-primary;
-  }
+  font-family:$font-family-description ;
+  font-weight: $font-weight-medium ;
+  font-size: $font-size-m;
+  line-height: $line-height-large;
+  text-align: center;
+  color: $color-primary;
+}
 .font-button-opposite {
-      font-family: $font-family-description;
-      font-weight: $font-weight-medium ;
-      font-size: $font-size-m;
-      line-height: $line-height-large;
-      text-align: center;
-      color: $color-midTone-light;
-  }
+  font-family: $font-family-description;
+  font-weight: $font-weight-medium ;
+  font-size: $font-size-m;
+  line-height: $line-height-large;
+  text-align: center;
+  color: $color-midTone-light;
+}
 
 // FOOTER
 .font-footer {
-      font-family:$font-family-description ;
-      font-weight: $font-weight-regular;
-      font-size: $font-size-xxs;
-      line-height: $line-height-medium;
-      text-align: center;
-      color: $color-midTone-light;
-margin: 0;
-  }
+  font-family:$font-family-description ;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-xxs;
+  line-height: $line-height-medium;
+  text-align: center;
+  color: $color-midTone-light;
+  margin: 0;
+}
