@@ -1,3 +1,12 @@
+.burguer-display{
+background-color: $color-light;
+z-index: 1;
+}
+
+.menu{
+display:inline-flex;
+}
+
 .burguer{
 width:276px;
 height:667px;
@@ -5,6 +14,8 @@ background-color: $color-midTone-light;
 opacity: 0.96;
 list-style: none;
 margin: $margin-none;
+padding: 0;
+justify-content: flex-start;
 }
 
 .burguer-option {
