@@ -5,12 +5,5 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: $margin-l $margin-s;
+  }
 }
-}
-
-// .row {
-//   padding-top: $margin-l;
-//   @media all and (min-width:768px) {
-//     padding-top: $margin-special-s;
-//   }
-// }

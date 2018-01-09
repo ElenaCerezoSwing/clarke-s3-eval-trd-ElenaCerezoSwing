@@ -5,9 +5,9 @@
   height:44px;
   padding: 15px;
   border: none;
-position: absolute;
-top: 0;
-left:0;
+  position: absolute;
+  top: 0;
+  left:0;
 }
 .burguer-close{
   color: $color-midTone-light;
@@ -16,8 +16,7 @@ left:0;
   height:44px;
   padding: 15px;
   border: none;
-  left:100%;
-}
+  }
 
 .scroll-button-up{
   background-color: $color-midTone-light;
@@ -41,13 +40,7 @@ left:0;
   justify-content: center;
   align-items: center;
 }
-// .button-shadow {
-//
-// }
-// .footer-button {
-//
-// // margin-top: 38px;
-// }
+
 .button-consistent {
   background-color: $color-midTone-light;
   width:76px;

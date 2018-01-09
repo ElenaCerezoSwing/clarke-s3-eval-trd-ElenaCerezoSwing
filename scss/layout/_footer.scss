@@ -1,20 +1,11 @@
 footer {
-background-color: $color-tertiary-dark;
-// display: flex;
-// flex-direction: column;
-align-items: center;
-width: 100%;
-height:128px;
-padding-bottom: $margin-s;
-// margin: auto;
+  background-color: $color-tertiary-dark;
+  align-items: center;
+  width: 100%;
+  height:128px;
+  padding-bottom: $margin-s;
 }
-// #end{
-// position: relative;
-// }
-
-
-
 
 span {
-color:$color-primary;
+  color:$color-primary;
 }

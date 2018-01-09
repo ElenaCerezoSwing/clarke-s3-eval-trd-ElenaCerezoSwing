@@ -1,7 +1,3 @@
-.reasons {
-  list-style: none;
-}
-
 footer {
   background-color: #304268;
   -webkit-box-align: center;
@@ -48,7 +44,6 @@ span {
   height: 44px;
   padding: 15px;
   border: none;
-  left: 100%;
 }
 
 .scroll-button-up {

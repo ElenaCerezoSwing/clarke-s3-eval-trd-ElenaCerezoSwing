@@ -1,17 +1,17 @@
 .description-section{
-margin:0;
-padding-left: $margin-xs;
-padding-right: $margin-xs;
-padding-top: $margin-s;
-padding-bottom: $margin-l;
-@media all and (min-width: 768px){
-  padding-left: $margin-m;
-  padding-right: $margin-m;
-padding-bottom: $margin-xl;
-}
-@media all and (min-width: 1024px){
-  padding-left: $margin-xxl;
-  padding-right: $margin-xxl;
-  padding-top: $margin-xl;
-}
+  margin:0;
+  padding-left: $margin-xs;
+  padding-right: $margin-xs;
+  padding-top: $margin-s;
+  padding-bottom: $margin-l;
+  @media all and (min-width: 768px){
+    padding-left: $margin-m;
+    padding-right: $margin-m;
+    padding-bottom: $margin-xl;
+  }
+  @media all and (min-width: 1024px){
+    padding-left: $margin-xxl;
+    padding-right: $margin-xxl;
+    padding-top: $margin-xl;
+  }
 }

@@ -14,16 +14,16 @@
   padding-right: $margin-xs;
   margin:0;
 
-@media all and (min-width:768px){
-  padding-top: $margin-top-hero-l;
-  padding-bottom: $margin-l;
-  padding-left: $margin-m;
-  padding-right: $margin-m;
-}
-@media all and (min-width:1024px){
-  padding-bottom: $margin-bottom-hero-desktop;
-  padding-left: $margin-xxl;
-  padding-right: $margin-xxl;
-}
+  @media all and (min-width:768px){
+    padding-top: $margin-top-hero-l;
+    padding-bottom: $margin-l;
+    padding-left: $margin-m;
+    padding-right: $margin-m;
+  }
+  @media all and (min-width:1024px){
+    padding-bottom: $margin-bottom-hero-desktop;
+    padding-left: $margin-xxl;
+    padding-right: $margin-xxl;
+  }
 
 }
