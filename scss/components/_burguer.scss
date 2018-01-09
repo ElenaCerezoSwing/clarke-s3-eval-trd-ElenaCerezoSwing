@@ -1,53 +1,56 @@
 .burguer-display{
-background-color: $color-light;
-z-index: 1;
+  background-color: $color-light;
+  z-index: 1;
 }
 
 .menu-trigger{
-display:inline-flex;
-	position: absolute;
-	height: 100%;
-	width: 310px;
-	background-color: $color-light;
-	left: -400px;
-	top: 0;
-	transition: left ease 0.8s;
-	.page--menu-visible & {
-		left: 0;
-		z-index: 2;
-	}
+  display:inline-flex;
+  position: absolute;
+  height: 100%;
+  width: 310px;
+  background-color: $color-light;
+  left: -400px;
+  top: 0;
+  transition: left ease 0.8s;
+  .page--menu-visible & {
+    left: 0;
+    z-index: 2;
+  }
 }
 
 
 .burguer{
-width:276px;
-height:667px;
-background-color: $color-midTone-light;
-opacity: 0.96;
-list-style: none;
-margin: $margin-none;
-padding: 0;
-justify-content: flex-start;
+  width:276px;
+  height:667px;
+  background-color: $color-midTone-light;
+  opacity: 0.96;
+  list-style: none;
+  margin: $margin-none;
+  padding: 0;
+  justify-content: flex-start;
+  left:0;
 }
 
 .burguer-option {
-border-bottom: 1px solid $color-secondary-light;
-height:45px;
-width:276px;
+  border-bottom: 1px solid $color-secondary-light;
+  height:45px;
+  width:276px;
+  padding-left: $margin-xs;
 }
 .burguer-option-0{
-border-bottom: 1px solid $color-secondary-light;
-height:44px;
-width:276px;
+  border-bottom: 1px solid $color-secondary-light;
+  height:44px;
+  width:276px;
+  padding-left: $margin-xs;
 }
 .page--menu-visible {
-	&::after {
-		content: '';
-		position: absolute;
-		left: 0;
-		top: 0;
-		height: 100%;
-		width: 100%;
-		z-index: 1;
-	}
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
 }

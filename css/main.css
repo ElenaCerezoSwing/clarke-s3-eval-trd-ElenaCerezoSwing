@@ -16,6 +16,11 @@ span {
   color: #f26002;
 }
 
+.reasons-grid {
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+
 .reasons-to-purchase {
   background-color: #eff9ff;
   padding-top: 30px;
@@ -114,6 +119,7 @@ span {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin: auto;
 }
 
 a {
@@ -210,6 +216,7 @@ a {
   text-align: center;
   color: #000000;
   text-transform: capitalize;
+  margin: 0px;
 }
 
 .font-section-reasons-subtitle {
@@ -219,6 +226,7 @@ a {
   line-height: 30px;
   text-align: center;
   color: #000000;
+  margin: 0px;
 }
 
 .font-section-reasons-description {
@@ -228,6 +236,7 @@ a {
   line-height: 30px;
   text-align: center;
   color: #000000;
+  margin: 0px;
 }
 
 .font-button {
@@ -293,18 +302,21 @@ a {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+  left: 0;
 }
 
 .burguer-option {
   border-bottom: 1px solid #8ccbea;
   height: 45px;
   width: 276px;
+  padding-left: 15px;
 }
 
 .burguer-option-0 {
   border-bottom: 1px solid #8ccbea;
   height: 44px;
   width: 276px;
+  padding-left: 15px;
 }
 
 .page--menu-visible::after {
@@ -339,8 +351,13 @@ body,html {
 }
 
 @media all and (min-width: 768px) {
+  .reasons-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px 30px;
+  }
+
   .reasons-to-purchase {
-    padding-top: 60px;
     padding-left: 39px;
     padding-right: 39px;
   }
@@ -400,6 +417,7 @@ body,html {
 
 @media all and (min-width: 1024px) {
   .reasons-to-purchase {
+    padding-top: 60px;
     padding-left: 85px;
     padding-right: 85px;
   }
