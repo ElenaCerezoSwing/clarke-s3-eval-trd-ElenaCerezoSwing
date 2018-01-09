@@ -1,16 +1,17 @@
 .description-section{
-margin-left: $margin-xs;
-margin-right: $margin-xs;
-margin-top: $margin-s;
-margin-bottom: $margin-l;
+margin:0;
+padding-left: $margin-xs;
+padding-right: $margin-xs;
+padding-top: $margin-s;
+padding-bottom: $margin-l;
 @media all and (min-width: 768px){
-  margin-left: $margin-m;
-  margin-right: $margin-m;
-  margin-bottom: $margin-xl;
+  padding-left: $margin-m;
+  padding-right: $margin-m;
+padding-bottom: $margin-xl;
 }
 @media all and (min-width: 1024px){
-  margin-left: $margin-xxl;
-  margin-right: $margin-xxl;
-  margin-top: $margin-xl;
+  padding-left: $margin-xxl;
+  padding-right: $margin-xxl;
+  padding-top: $margin-xl;
 }
 }

@@ -330,10 +330,11 @@ a {
 }
 
 .description-section {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 30px;
-  margin-bottom: 45px;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 45px;
 }
 
 body {
@@ -409,9 +410,9 @@ body,html {
   }
 
   .description-section {
-    margin-left: 39px;
-    margin-right: 39px;
-    margin-bottom: 60px;
+    padding-left: 39px;
+    padding-right: 39px;
+    padding-bottom: 60px;
   }
 }
 
@@ -455,9 +456,9 @@ body,html {
   }
 
   .description-section {
-    margin-left: 275px;
-    margin-right: 275px;
-    margin-top: 60px;
+    padding-left: 275px;
+    padding-right: 275px;
+    padding-top: 60px;
   }
 }
 
