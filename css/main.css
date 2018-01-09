@@ -278,8 +278,7 @@ a {
   display: inline-flex;
   position: absolute;
   height: 100%;
-  width: 310px;
-  background-color: rgba(255, 255, 255, 0.5);
+  width: 320px;
   left: -400px;
   top: 0;
   -webkit-transition: left ease 0.8s;
@@ -295,7 +294,6 @@ a {
   width: 276px;
   height: 667px;
   background-color: #ffffff;
-  opacity: 0.96;
   list-style: none;
   margin: 0px;
   padding: 0;
