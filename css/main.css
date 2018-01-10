@@ -81,6 +81,7 @@ span {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin: auto;
 }
 
 .button-consistent {
@@ -133,14 +134,13 @@ a {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  padding-top: 284px;
   padding-bottom: 53px;
   padding-left: 15px;
   padding-right: 15px;
@@ -336,7 +336,7 @@ body {
   background-color: #ffffff;
 }
 
-body,html {
+body,html,.hero {
   height: 100%;
   margin: 0;
 }
@@ -367,7 +367,6 @@ body,html {
   }
 
   .hero {
-    padding-top: 384px;
     padding-bottom: 45px;
     padding-left: 39px;
     padding-right: 39px;
