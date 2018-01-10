@@ -1,6 +1,7 @@
 .burguer-display{
-  background-color: $color-light;
+  background-color:rgba($color-dark, 0);
   z-index: 1;
+  transition: background-color ease-in-out 3s;
 }
 
 .menu-trigger{
@@ -8,7 +9,7 @@
   position: absolute;
   height: 100%;
   width: 320px;
-    left: -400px;
+  left: -400px;
   top: 0;
   transition: left ease 0.8s;
   .page--menu-visible & {
@@ -19,10 +20,10 @@
 
 .burguer{
   width:276px;
-  height:667px;
+  height:100%;
   background-color: $color-midTone-light;
   list-style: none;
-  margin: $margin-none;
+  margin: $size-none;
   padding: 0;
   justify-content: flex-start;
   left:0;
@@ -32,14 +33,14 @@
   border-bottom: 1px solid $color-secondary-light;
   height:45px;
   width:276px;
-  padding-left: $margin-xs;
+  padding-left: $size-xs;
 }
 
 .burguer-option-0{
   border-bottom: 1px solid $color-secondary-light;
   height:44px;
   width:276px;
-  padding-left: $margin-xs;
+  padding-left: $size-xs;
 }
 
 .page--menu-visible {
@@ -51,5 +52,6 @@
     height: 100%;
     width: 100%;
     z-index: 1;
+    background-color: rgba($color-dark, 0.5);
   }
 }

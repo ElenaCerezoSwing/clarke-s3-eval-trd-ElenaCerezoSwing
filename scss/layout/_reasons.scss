@@ -1,17 +1,17 @@
 .reasons-to-purchase {
 background-color: $color-tertiary-light;
-padding-top: $margin-s;
-padding-bottom: $margin-xl;
-padding-left: $margin-xs;
-padding-right: $margin-xs;
+padding-top: $size-s;
+padding-bottom: $size-xl;
+padding-left: $size-xs;
+padding-right: $size-xs;
 
 @media all and (min-width: 768px){
- padding-left: $margin-m;
- padding-right: $margin-m;
+ padding-left: $size-m;
+ padding-right: $size-m;
 }
 @media all and (min-width: 1024px){
- padding-top: $margin-xl;
- padding-left:$margin-special;
- padding-right: $margin-special;
+ padding-top: $size-xl;
+ padding-left:$size-special;
+ padding-right: $size-special;
 }
 }

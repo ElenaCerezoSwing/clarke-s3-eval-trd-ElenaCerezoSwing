@@ -8,22 +8,22 @@
   justify-content: space-between;
   align-items:  center;
   height:100%;
-  padding-top: $margin-top-hero;
-  padding-bottom: $margin-bottom-hero-mobile;
-  padding-left: $margin-xs;
-  padding-right: $margin-xs;
+  padding-top: $size-top-hero;
+  padding-bottom: $size-bottom-hero-mobile;
+  padding-left: $size-xs;
+  padding-right: $size-xs;
   margin:0;
 
   @media all and (min-width:768px){
-    padding-top: $margin-top-hero-l;
-    padding-bottom: $margin-l;
-    padding-left: $margin-m;
-    padding-right: $margin-m;
+    padding-top: $size-top-hero-l;
+    padding-bottom: $size-l;
+    padding-left: $size-m;
+    padding-right: $size-m;
   }
   @media all and (min-width:1024px){
-    padding-bottom: $margin-bottom-hero-desktop;
-    padding-left: $margin-xxl;
-    padding-right: $margin-xxl;
+    padding-bottom: $size-bottom-hero-desktop;
+    padding-left: $size-xxl;
+    padding-right: $size-xxl;
   }
 
 }

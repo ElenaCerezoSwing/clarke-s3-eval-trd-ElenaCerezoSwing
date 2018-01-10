@@ -1,9 +1,9 @@
 .reasons-grid {
-  padding-top: $margin-l;
-  padding-bottom: $margin-xl;
+  padding-top: $size-l;
+  padding-bottom: $size-xl;
   @media all and (min-width:768px) {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-gap: $margin-l $margin-s;
+    grid-gap: $size-l $size-s;
   }
 }
